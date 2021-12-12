@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vmin;
+}
+
+.card {
+  margin: 1rem;
+}
+.container {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+.image {
+  height: 10rem;
+}
+.error {
+  color: red;
+}
+input {
+  margin-bottom: 2rem;
+  border: 1px solid black;
+}
+button {
+  cursor: pointer;
+  display: inline-block;
+  height: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  /* box-shadow: 1px 1px 1px 1px #888888; */
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+/* #myChart {
+  zoom: 0.5; */
+/* max-height: 200px;
+} */
+.bottom {
+  display: block;
+}
